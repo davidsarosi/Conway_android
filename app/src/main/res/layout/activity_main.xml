@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/Menu" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:gravity="center_horizontal"
+              android:visibility="visible" android:padding="10dp"
+              tools:context=".MainActivity">
+
+
+    <TextView
+            android:text="@string/game_of_life"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:textAlignment="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="60dp"
+            android:textSize="30sp"
+    />
+    <Button
+            android:text="@string/start_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/startbtn" android:padding="10dp"/>
+    <Button
+            android:text="@string/load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/loadbtn" android:padding="10dp"/>
+    <Button
+            android:text="@string/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/optionsbtn" android:padding="10dp"/>
+    <Button
+            android:text="@string/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/quitbtn"
+            android:padding="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Conway</string>
+    <string name="start_game">Start Game</string>
+    <string name="load">Load</string>
+    <string name="options">Options</string>
+    <string name="quit">Quit</string>
+    <string name="game_of_life">Game of Life</string>
+    <string name="alive_color">Alive color</string>
+    <string name="dead_color">Dead Color</string>
+    <string name="grid_color">Grid Color</string>
+    <string name="stepping_speed">Stepping speed</string>
+    <string name="apply">Apply</string>
+    <string name="back">Back</string>
+    <string name="alive_cell_color"> </string>
+    <string name="dead_cell_color"> </string>
+    <string name="grid_line_color"> </string>
+    <string name="start">Start</string>
+    <string-array name="Color_array">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+    </string-array>
+</resources>
